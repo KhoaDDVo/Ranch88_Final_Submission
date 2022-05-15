@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meats</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <script>
+            window.watsonAssistantChatOptions = {
+                integrationID: "04197fac-5a3a-4b74-a32c-a06fcd8a116b", // The ID of this integration.
+                region: "us-south", // The region your integration is hosted in.
+                serviceInstanceID: "33f07c8e-9638-4e35-9662-e9538d7788ac", // The ID of your service instance.
+                onLoad: function(instance) { instance.render(); }
+              };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js"
+              document.head.appendChild(t);
+            });
+          </script>
+    
+</head>
+<body>
+    <header>
+
+        <div class="header-1">
+    
+            <a href="Homepage.html" class="logo"><i class="fas fa-shopping-basket"></i>Ranch 88</a>
+    
+        </div>
+    
+        <div class="header-2">
+    
+            <div id="menu-bar" class="fas fa-bars"></div>
+    
+            <nav class="navbar">
+                <a href="Homepage.html">Home</a>
+                <div class = "dropdown">
+                    <button class = "dropbtn">Category</button>
+                    <div class = "dropdown-content">
+                    <a href = "Meats.html">Meats</a>
+                    <a href = "Beverages.html">Beverages</a>
+                    <a href = "Fruits.html">Fruits</a>
+                    <a href = "Vegetables.html">Vegetables</a>
+                    </div>
+                </div>
+                <a href="Deals.html">Deals</a>
+                <a href="Locations.html">Locations</a>
+                <a href= "Contact.html">Contact</a>
+            </nav>
+    
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="login.html" class="fas fa-user-circle"></a>
+            </div>
+    
+        </div>
+    
+    </header>
+    <section class ="product" id="product">
+
+        <h1 class="heading">Meats</h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="images/beef.png" alt="">
+                <h3> Beef</h3>
+                <div class="price"> $29.99 </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                </div>
+                <a href="AddToCart.html" class="btn">add to cart</a>
+            </div>
+    
+           <div class="box">
+                <img src="images/salmon.png" alt="">
+                <h3> Salmon</h3>
+                <div class="price"> $24.99 </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+        
+                </div>
+                <a href="AddToCart.html" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <img src="images/chicken.png" alt="">
+                <h3> Chicken</h3>
+                <div class="price"> $12.99 </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    
+                </div>
+                <a href="AddToCart.html" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <img src="images/pork.png" alt="">
+                <h3> Pork</h3>
+                <div class="price"> $23.99 </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                </div>
+                <a href="AddToCart.html" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <img src="images/venison.png" alt="">
+                <h3> Venison</h3>
+                <div class="price"> $39.99 </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                </div>
+                <a href="AddToCart.html" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <img src="images/turkey.png" alt="">
+                <h3> Turkey</h3>
+                <div class="price"> $19.99 </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    
+                </div>
+                <a href= "AddToCart.html" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <img src="images/duck.png" alt="">
+                <h3> Duck</h3>
+                <div class="price"> $13.99 </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    
+                </div>
+                <a href="AddToCart.html" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <img src="images/mutton.png" alt="">
+                <h3> Mutton</h3>
+                <div class="price"> $39.99 </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    
+                </div>
+                <a href="AddToCart.html" class="btn">add to cart</a>
+            </div> 
+    
+        </div>
+    
+    </section>
+
+</body>
+</html>

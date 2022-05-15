@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel = "stylesheet" href = "css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+
+</head>
+<body>
+
+
+    <header>
+
+        <div class="header-1">
+    
+            <a href="Homepage.html" class="logo"><i class="fas fa-shopping-basket"></i>Ranch 88</a>
+    
+        </div>
+    
+        <div class="header-2">
+    
+            <div id="menu-bar" class="fas fa-bars"></div>
+    
+            <nav class="navbar">
+                <a href="Homepage.html">Home</a>
+                <div class = "dropdown">
+                    <button class = "dropbtn">Category</button>
+                    <div class = "dropdown-content">
+                        <a href = "Meats.html">Meats</a>
+                        <a href = "Beverages.html">Beverages</a>
+                        <a href = "Fruits.html">Fruits</a>
+                        <a href = "Vegetables.html">Vegetables</a>
+                        </div>
+                    </div>
+                    <a href="Deals.html">Deals</a>
+                    <a href="Locations.html">Locations</a>
+                    <a href= "Contact.html">Contact</a>
+            </nav>
+    
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-user-circle"></a>
+            </div>
+    
+        </div>
+    
+    </header>
+    <!--Login form containing two parameters, email and password-->
+    <div class = "login-page">
+        <div class = "login-form">
+        <form method = "post" action = "Homepage.html"> 
+            <label for="email">Email</label>  
+            <input name = "Email" type = "email" size = "25" maxlength = "30" required placeholder="Enter Email"><br><br>
+                    
+            <label for ="Password">Password</label> 
+            <input name = "Password" type = "password" size = "25"maxlength = "30" required placeholder = "Enter Password"><br><br>
+            
+            <input type = "submit"  value = "login">
+        <form>
+        </div>
+        
+    <div>
+
+</body>
+</html>

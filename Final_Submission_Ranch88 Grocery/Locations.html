@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locations</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <script>
+            window.watsonAssistantChatOptions = {
+                integrationID: "04197fac-5a3a-4b74-a32c-a06fcd8a116b", // The ID of this integration.
+                region: "us-south", // The region your integration is hosted in.
+                serviceInstanceID: "33f07c8e-9638-4e35-9662-e9538d7788ac", // The ID of your service instance.
+                onLoad: function(instance) { instance.render(); }
+              };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js"
+              document.head.appendChild(t);
+            });
+          </script>
+</head>
+<body>
+    <header>
+
+        <div class="header-1">
+    
+            <a href="Homepage.html" class="logo"><i class="fas fa-shopping-basket"></i>Ranch 88</a>
+    
+        </div>
+    
+        <div class="header-2">
+    
+            <div id="menu-bar" class="fas fa-bars"></div>
+    
+            <nav class="navbar">
+                <a href="Homepage.html">Home</a>
+                <div class = "dropdown">
+                    <button class = "dropbtn">Category</button>
+                    <div class = "dropdown-content">
+                        <a href = "Meats.html">Meats</a>
+                        <a href = "Beverages.html">Beverages</a>
+                        <a href = "Fruits.html">Fruits</a>
+                        <a href = "Vegetables.html">Vegetables</a>
+                        </div>
+                    </div>
+                    <a href="Deals.html">Deals</a>
+                    <a href="Locations.html">Locations</a>
+                    <a href= "Contact.html">Contact</a></a>
+            </nav>
+    
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="login.html" class="fas fa-user-circle"></a>
+            </div>
+    
+        </div>
+    
+    </header>
+    
+    <section class="Locations" id="Locations">
+
+        <div class="content">
+    
+            <h3 class="title">Find us!</h3>
+            <p>We have several locations across the Bay Area!</p>
+            <p>Check them out!</p>
+            <!--Embedded Google Maps for location tracking-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.5182424059985!2d-122.0789339492612!3d37.37757464258623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb6d7ad502541%3A0x6c3f4950294c5e49!2s99%20Ranch%20Market!5e0!3m2!1sen!2sus!4v1647811342745!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    
+    </section>
+
+
+</body>
+</html>

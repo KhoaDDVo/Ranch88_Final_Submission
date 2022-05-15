@@ -1,0 +1,16 @@
+{
+    "userdetails": [{
+        "email": "kway@gmail.com",
+        "number": "4086666666",
+        "FullName": "Kway Votomous",
+        "Subject": "Hello",
+        "message": "This is a greeting"
+
+    }, {
+        "email": "carly@gmail.com",
+        "number": "4089999999",
+        "FullName": "IcArly",
+        "Subject": "Hello",
+        "message": "This is a greeting"
+    }]
+}
